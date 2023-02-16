@@ -1,0 +1,24 @@
+{
+    "families": [
+        {"name":"Sour", "tech":"hardshake OR dry/wet shake", "glass":"differs", "specs": [
+            ".75oz lemon",
+            ".75oz sweetner",
+            "2oz spirit",
+            "optional eggwhite"
+        ], "tags": [
+            "citrus",
+            "eggwhite",
+            "lemon",
+            "sweet"
+        ]},
+        {"name":"Gimlet", "tech":"hardshake", "glass":"differs", "specs": [
+            "1oz lime",
+            ".75oz sweetner",
+            "2oz spirit"
+        ], "tags": [
+            "citrus",
+            "lime",
+            "sweet"
+        ]}
+    ]
+}
