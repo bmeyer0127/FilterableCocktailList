@@ -1,6 +1,7 @@
 {
     "families": [
-        {"name":"Sour", "tech":"hardshake OR dry/wet shake", "glass":"differs", "specs": [
+
+        {"name":"Sour", "tech":"hardshake OR dry/wet shake", "glass":"differs", "garnish":"differs", "specs": [
             ".75oz lemon",
             ".75oz sweetner",
             "2oz spirit",
@@ -9,16 +10,137 @@
             "citrus",
             "eggwhite",
             "lemon",
+            "shaken",
             "sweet"
         ]},
-        {"name":"Gimlet", "tech":"hardshake", "glass":"differs", "specs": [
+
+        {"name":"Gimlet", "tech":"hardshake", "glass":"differs", "garnish":"differs", "specs": [
             "1oz lime",
             ".75oz sweetner",
             "2oz spirit"
         ], "tags": [
             "citrus",
             "lime",
+            "shaken",
             "sweet"
+        ]},
+
+        {"name":"Old Fashioned", "tech":"stir", "glass":"rocks", "garnish":"differs", "specs": [
+            "bitters",
+            "sweetner",
+            "2oz spirit"
+        ], "tags": [
+            "boozy",
+            "spirit forward",
+            "stirred"
+        ]},
+
+        {"name":"Flip", "tech":"dry/wet shake", "glass":"differs", "garnish":"differs", "specs": [
+            ".75oz sweetner",
+            "1oz cream",
+            "2oz spirit",
+            "whole egg"
+        ], "tags": [
+            "dessert",
+            "sweet",
+            "shaken",
+            "whole egg"
+        ]},
+
+        {"name":"Collins", "tech":"whip double back", "glass":"collins", "garnish":"differs", "specs": [
+            ".75oz lemon",
+            ".75oz sweetner",
+            "2oz spirit",
+            "2.5oz seltzer"
+        ], "tags": [
+            "citrus",
+            "lemon",
+            "shaken",
+            "sweet",
+            "soda"
+        ]},
+
+        {"name":"Rickey", "tech":"whip double back", "glass":"collins", "garnish":"differs", "specs": [
+            "1oz lime",
+            ".75oz sweetner",
+            "2oz spirit",
+            "2.5oz seltzer"
+        ], "tags": [
+            "citrus",
+            "lime",
+            "shaken",
+            "sweet",
+            "soda"
+        ]},
+
+        {"name":"Sidecar/Daisy", "tech":"hardshake", "glass":"differs", "garnish":"differs", "specs": [
+            ".5oz lemon OR .75oz lime",
+            "1oz curacao",
+            "1.5oz spirit"
+        ], "tags": [
+            "citrus",
+            "lemon",
+            "lime",
+            "shaken",
+            "tart"
+        ]},
+
+        {"name":"Fizz", "tech":"dry/wet shake", "glass":"fizz", "garnish":"differs", "specs": [
+            ".75oz lemon",
+            ".75oz sweetner",
+            "2oz spirit",
+            "eggwhite",
+            "2.5oz seltzer"
+        ], "tags": [
+            "citrus",
+            "eggwhite",
+            "lemon",
+            "shaken",
+            "soda",
+            "sweet"
+        ]},
+
+        {"name":"Ginger Highball", "tech":"whip double back", "glass":"collins", "garnish":"differs", "specs": [
+            ".5oz lime",
+            "2oz spirit",
+            "top ginger beer"
+        ], "tags": [
+            "citrus",
+            "lime",
+            "soda",
+            "sweet"
+        ]},
+
+        {"name":"Manhattan/Martini", "tech":"stir", "glass":"differs", "garnish":"differs", "specs": [
+            "bitters",
+            "1oz fortified wine/brine",
+            "2oz spirit"
+        ], "tags": [
+            "boozy",
+            "spirit forward",
+            "stirred"
+        ]},
+
+        {"name":"Equal Parts Stirred", "tech":"stir", "glass":"differs", "garnish":"differs", "specs": [
+            "1oz fortified wine",
+            "1oz amaro",
+            "1oz spirit"
+        ], "tags": [
+            "stirred"
+        ]},
+
+        {"name":"Equal Parts Shaken", "tech":"hardshake", "glass":"differs", "garnish":"differs", "specs": [
+            ".75oz citrus",
+            ".75oz cordial",
+            ".75oz amaro",
+            ".75oz spirit"
+        ], "tags": [
+            "citrus",
+            "shaken"
         ]}
+    ],
+
+    "Classics": [
+        
     ]
 }
